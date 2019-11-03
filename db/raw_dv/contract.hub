@@ -1,0 +1,13 @@
+create table raw_dv.contract_h
+	(
+		  contract_key raw(16)
+		, contract_date date
+		, contract_no varchar2(30)
+		, contract_acc varchar2(50)
+		, contract_bic varchar2(20)
+		, yars$load_date date
+		, yars$record_src varchar2(30)
+		, constraint contract_already_exists primary key (contract_key)
+	);
+
+

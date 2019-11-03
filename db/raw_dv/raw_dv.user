@@ -1,0 +1,2 @@
+create user raw_dv identified by sberbank;
+grant connect to raw_dv;

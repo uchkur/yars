@@ -1,0 +1,11 @@
+create table raw_dv.account_h
+	(
+		  acc_key raw(16)
+		, acc_no varchar2(30)
+    	, acc_date_open date
+        , acc_bic varchar2(20)
+		, yars$load_date date
+		, yars$record_src varchar2(30)
+		, constraint account_already_exists primary key (acc_key)
+	);
+

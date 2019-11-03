@@ -1,0 +1,14 @@
+create table raw_dv.contract_ekp_s
+	(
+		  contract_key raw(16)
+		, b1 number
+		, b2 number
+		, b3 number
+		, b4 number
+        , b5 number
+        , b6 number
+        , b7 number
+		, yars$load_date date
+		, yars$record_src varchar2(30)
+		, constraint contract_already_exists primary key (contract_key)
+	);
