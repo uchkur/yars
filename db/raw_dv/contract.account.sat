@@ -1,9 +1,0 @@
-create table raw_dv.contract_acc_s
-	(
-		  contract_key raw(16)
-        , debet raw(16)
-        , credit raw(16)
-		, yars$load_date date
-		, yars$record_src varchar2(30)
-		, constraint contr_acc_lnk_already_exists primary key (contract_key)
-	);
